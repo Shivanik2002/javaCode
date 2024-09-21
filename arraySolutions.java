@@ -58,7 +58,7 @@ public class arraySolutions {
         // int min = Integer.MIN_VALUE;
 
         // for(int i=0; i<numbers.length; i++){
-        //     if(numbers[i] < min){
+        //     i/f(numbers[i] < min){
         //         min = numbers[i];
         //     }
 
@@ -86,6 +86,7 @@ public class arraySolutions {
 
         for(int i=0; i<numbers.length-1; i++){
             if(numbers[i] > numbers[i+1]) {
+
                 isAscending = false;
             }
         }
